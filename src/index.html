@@ -132,6 +132,10 @@
       justify-content: space-between;
     }
 
+    .projects > ol > li > header > .name {
+      color: black;
+    }
+
     .projects > ol > li h3 {
       display: inline-block;
     }
@@ -294,7 +298,7 @@
       href="mailto:vue000@hotmail.com" target="_blank">vue000@hotmail.com</a>
     </p>
     <p> Github: <a href="https://github.com/yf2050" target="_blank">https://github.com/yf2050</a></p>
-    <p>写博客: <a href="https://blog.csdn.net/abc465200" target="_blank">https://blog.csdn.net/abc465200</a> 原创文章30篇</p>
+    <p>写博客: <a href="https://blog.csdn.net/abc465200" target="_blank">https://blog.csdn.net/abc465200</a> 原创文章50篇</p>
   </section>
 
   <section class="skills">
@@ -303,28 +307,16 @@
       <ul>
         <ul>
           <li>● 熟悉HTML(5)和常用CSS(3),<strong>文档流</strong>、<strong>盒模型</strong>、Flex和Grid布局、CSS3动画、过渡</li>
-          <li>● 熟悉<strong>vue.js</strong>，用过<strong>Recat.js</strong></li>
-          <li>● 熟悉<strong>移动端</strong>兼容，有相关响应式开发经验</li>
+          <li>● 熟悉<strong>vue.js</strong>，用过<strong>Recat</strong>，熟悉<strong>移动端</strong>兼容，有相关响应式开发经验</li>
           <li>● 熟悉原生JavaScript，<strong>原型prototype</strong>、闭包、事件冒泡和捕获、事件委托、数组splice()等API</li>
           <li>● 熟悉前后端分离原理，AJAX四步骤、跨域CORS和JSONP、前端路由</li>
           <li>● 熟悉命令行和使用<strong>Git</strong>、<strong>Svn</strong>进行版本控制和协作开发 && Npm && Yarn</li>
-          <li>● 了解ES6语法，let、<strong>Promise</strong>、<strong>this</strong>、析构赋值</li>
-          <li>● 了解axios库，JSON数据存储格式</li>
+          <li>● 了解ES6语法，let、<strong>Promise</strong>、<strong>this</strong>、析构赋值；了解axios库，JSON数据存储格式</li>
           <li>● 了解前程模块化、<strong>webpack</strong>和parcel等前端打包类工具，loader、Plugin的配置和优化</li>
           <li>● 了解<strong>HTTP</strong>协议及浏览器工作原理，并进行前端性能优化，略懂后端，可以写点 PHP 和 Node.js</li>
-        </ul>
-      </ul>
-  </section>
-  <section class="skills">
-    <h2>其他技能</h2>
-    <div class="wrapper">
-      <ul>
-        <ul>
-          <ul>
-            <li>● 在日常使用中，能够利用Chrome dev tools进行简单的项目调试,能够科学上网。</li>
-            <li>● 熟练使用Vscode、Webstrom、Idea编辑器以及使用MarkDown进行文档的写作。</li>
-            <li>● 能用PS进行前端页面所需的切图，熟悉PS、PR、AI、AE、AU</li>
-          </ul>
+          <li>● 在日常使用中，能够利用Chrome dev tools进行简单的项目调试,科学上网</li>
+          <li>● 熟练使用Vscode、Webstrom、Idea编辑器以及使用MarkDown进行文档的写作</li>
+          <li>● 能用PS进行前端页面所需的切图，有一定美感，熟悉PS、PR、AI、AE、AU</li>
         </ul>
       </ul>
   </section>
@@ -336,26 +328,27 @@
     <ol>
       <li>
         <header>
-          <h3 id="name">北京紫狮网络信息科技有限公司</h3>
-          <h4>前端开发工程师</h4>
-          <span><time>2020年7月</time>~<time>2021年5月</time></span>
+          <h3 class="name">北京紫狮网络信息科技有限公司</h3>
+          <h4>初级前端开发工程师</h4>
+          <span class="name"><time>2020年7月</time>~<time>2021年5月</time></span>
         </header>
         <ul>
           <p>
-            负责项目网站从0到有，进行需求分析、界面设计和接口文档的编写，修复bug并为用户提供技术支撑。
+            负责公司项目开发，进行需求分析、界面设计和接口文档的编写，修复bug并为用户提供技术支撑。
           </p>
+          <br/>
           <li>
             <header>
               <h3>1. Nuxt技术栈—在线教育平台Web端、移动端</h3>
             </header>
-            <div id=img><img src="./images/e.png" alt="" width="200px"></div>
-            <p>项目描述：一个把线下课堂的完整学习流程搬到线上，方便用户在线视频学习的系统。</p>
-            <p>● 负责开发分类展示课程、在线播放视频、等级权限、试听、微信定制分享、邀请分销机制、用户中心、注册登陆等十几个大功能</p>
+            <a id=img href="./images/e.png" target="_blank"><img src="./images/e.png" alt="" width="200px"></a>
+            <p>● 项目描述：一个把线下课堂的完整学习流程搬到线上，方便用户在线视频学习的系统。</p>
+            <p>● 为了方便<strong>SEO</strong>,使用服务器渲染ssr的<strong>Nuxt.js</strong>框架，移动端使用媒体查询media、实现响应式布局。</p>
             <p>●
-              自己独自负责前端开发的，从零开始技术选型、不断从用户的角度思考，和老板进行需求分析和页面交互设计的讨论确定，最终本地资源部署到阿里云服务器；期间不断尝试用阿里云的<strong>视频点播、OSS存储、CDN加速、短信服务</strong>等新技术。
+              独自负责前端开发，从零开始技术选型、并从用户的角度思考，和老板进行需求分析和页面交互设计的讨论确定，最终本地资源部署到阿里云服务器；期间使用阿里云的<strong>视频点播、OSS存储、CDN加速、短信服务</strong>等新技术并完成https的配置。
             </p>
-            <p>● 为了方便<strong>SEO</strong>,使用服务器渲染ssr的<strong>Nuxt.js</strong>框架，移动端使用媒体查询media、实现响应式布局</p>
-            <p>● 现在项目支撑公司日常视频教学和宣传的正常开展，测试支持数千学生的日常线上学习，几万用户的日常访问</p>
+            <p>● 实现课程分类、视频在线播放、等级权限、试听、微信定制分享、邀请分销、注册登陆等十几个功能。</p>
+            <p>● 现在项目支撑公司日常视频教学和宣传的正常开展，测试支持数千学生的日常线上学习和日常访问。</p>
             <p>技术栈：vue、nuxt、element-ui、axios，node.js、webpack、es6、移动端</p>
           </li>
 
@@ -365,10 +358,10 @@
               <span>
             </span>
             </header>
-            <div id=img><img src="./images/f.png" alt="" width="200px"></div>
-            <p>● 项目描述：这是基于 <strong>vue-element-admin</strong> 框架开发的公司后台课程管理系统</p>
+            <a id=img href="./images/f.png" target="_blank"><img src="./images/f.png" alt="" width="200px"></a>
+            <p>● 项目描述：一个基于 <strong>vue-element-admin</strong> 框架开发的公司后台课程管理系统。</p>
             <p>●
-              责任描述：利用<strong>Vue</strong>框架进行双向数据绑定，利用<strong>axios</strong>封装请求接口方式，利用<strong>vuex</strong>进行数据状态管理，利用<strong>vue-router</strong>进行页面路由管理，利用<strong>echarts</strong>把部分数据以图形方式展示，利用<strong>element-ui</strong>搭建ui界面库，最终实现数据列表展示和初始化，会员管理模块、课程管理模块、课程创建和视频上传、关联数据的增删改查等功能
+              责任描述：利用<strong>Vue</strong>框架进行双向数据绑定，利用<strong>axios</strong>封装请求接口方式，利用<strong>vuex</strong>进行数据状态管理，利用<strong>vue-router</strong>进行页面路由管理，利用<strong>echarts</strong>把部分数据以图形方式展示，利用<strong>element-ui</strong>优化ui界面，最终实现会员管理模块、课程管理模块、涉及课程创建和视频上传、关联数据的增删改查等功能。
             </p>
             <p>● 技术栈：Javascript、Less、Vue、vuex、axios、vue-router、echarts、element-ui</p>
           </li>
@@ -382,14 +375,13 @@
     <ol>
       <li>
         <header>
-          <h3>△Vue—记一笔</h3>
+          <h3>△Vue技术栈—记一笔</h3>
         </header>
-        <div id=img><img src="./images/g.png" alt="" width="200px"></div>
-        <p>● 记一笔是一款极简的记账应用，也是一款基于<strong>Vue，VueRouter,Vuex，TypeScript</strong>的单页面应用。</p>
+        <a id=img href="./images/g.png" target="_blank"><img src="./images/g.png" alt="" width="200px"></a>
+        <p>● 项目描述：一款极简的记账应用，也是一款基于<strong>Vue，VueRouter,Vuex，TypeScript</strong>的单页面应用。</p>
         <p>
-          ● 由本人独立设计并实现，期间遇到很多BUG，比如webpack(svg)和TypeScript(使用computed,使用Prop)方面的问题，实现过程全记录在本人的<a
-          href="https://blog.csdn.net/abc465200" target="_blank">博客</a>，源代码几乎完全使用<strong>TypeScript</strong>实现，数据持久化采用localStorage，主要负责
-          <strong>记账页</strong>：金额、标签、备注、收入或者支出；<strong>管理标签页</strong>：添加，改名、删除；<strong>记账统计页</strong>：按天排序等模块。
+          ● 责任描述：由本人独立设计并实现，期间遇到很多BUG，比如webpack(svg)和TypeScript(使用computed,使用Prop)方面的问题，实现过程都记录在<a
+          href="https://blog.csdn.net/abc465200" target="_blank">博客</a>上，源代码几乎完全使用<strong>TypeScript</strong>实现，数据持久化采用localStorage，实现了<strong>记账页</strong>：金额、标签、备注、收入或者支出；<strong>管理标签页</strong>：添加，改名、删除；<strong>记账统计页</strong>：按天排序等模块。
 
         </p>
         <p>
@@ -406,12 +398,12 @@
         <header>
           <h3>△画一个皮卡丘</h3>
         </header>
-        <div id=img><img src="./images/b.png" alt="" width="200px"></div>
+        <a id=img href="./images/b.png" target="_blank"><img src="./images/b.png" alt="" width="200px"></a>
         <p>
-          ● 这个项目动态演示绘制皮卡丘，并可以进行速度控制，以中间布局，左右对称。
+          ● 项目描述：这个项目动态演示绘制皮卡丘，并可以进行速度控制，以中间布局，左右对称。
         </p>
         <p>
-          ● 大量使用伪元素、<strong>CSS3和ES6</strong>、相对定位、监听绑定和取消监听、webpack打包等
+          ● 责任描述：大量使用伪元素、<strong>CSS3和ES6</strong>、相对定位、监听绑定和取消监听、webpack打包等。
         </p>
         <p>
           ● 预览地址：
@@ -427,18 +419,18 @@
         <header>
           <h3>△基于H5的大学生心理健康网</h3>
         </header>
-        <div id=img><img src="./images/a.png" alt="" width="200px"></div>
-        <p>● 这是一个基于前端和后端搭建的线上多页面网站(毕业设计）。</p>
+        <a id=img href="./images/a.png" target="_blank"><img src="./images/a.png" alt="" width="200px"></a>
+        <p>● 项目描述：一个基于前端和后端搭建的线上多页面网站(毕业设计）。</p>
         <p>
-          ● 在大学中未安排数据库课程情况下，自学Mysql数据库的建表、Sql语句的增删改查,了解前后端php逻辑。
+          ● 在大学中未安排数据库课程情况下，学习Mysql数据库的建表、Sql语句的增删改查,了解前后端逻辑。
 
         </p>
         <p>
-          ● 网站用动态语言和<strong>flex布局</strong>编写完成后，进行了<strong>阿里云服务器和域名搭配</strong>，现于宝塔上进行管理访问。
+          ● 网站用动态语言php和<strong>flex布局</strong>编写完成后，进行了<strong>阿里云服务器和域名搭配</strong>，通过宝塔进行管理访问。
 
         </p>
         <p>
-          ● 主要功能包括注册登录、留言功能、视频图片展示、后台管理系统、移动端兼容在宽500px以下等。
+          ● 实现功能有注册登录、留言功能、视频图片展示、后台管理系统、移动端兼容在宽500px以下等。
         </p>
       </li>
 
@@ -446,13 +438,13 @@
         <header>
           <h3>△一个键盘导航网站</h3>
         </header>
-        <div id=img><img src="./images/c.png" alt="" width="200px"></div>
+        <a id=img href="./images/c.png" target="_blank"><img src="./images/c.png" alt="" width="200px"></a>
         <p>
-          ● 这个项目使用<strong>原生JavaScript</strong>，监听键盘事件，实现一个可自定义的导航网。
+          ● 项目描述：一个使用<strong>原生JavaScript</strong>，监听键盘事件，可自定义的导航网。
         </p>
 
         <p>
-          ● 同时加入了<strong>百度搜索</strong>功能，加深了对浏览器<strong>LocalStorage</strong>的理解
+          ● 加入了<strong>百度搜索</strong>功能，加深了对浏览器<strong>LocalStorage</strong>的理解。
         </p>
         <p>
           ● 技术栈: JavaScript + HTML5 + LocalStorage + CSS3 + Media queries
@@ -469,17 +461,17 @@
       <li>
         <header>
           <h3>△Canvas画板</h3>
-          <span>
-              <a href="https://github.com/yf2050/canvas-demo-1">Github</a>
-              <a href="https://yf2050.github.io/canvas-demo-1/index.html" target="_blank">作品链接</a>
-            </span>
+          <!--          <span>-->
+          <!--              <a href="https://github.com/yf2050/canvas-demo-1">Github</a>-->
+          <!--              <a href="https://yf2050.github.io/canvas-demo-1/index.html" target="_blank">作品链接</a>-->
+          <!--            </span>-->
         </header>
-        <div id=img><img src="./images/d.png" alt="" width="200px"></div>
+        <div id=img href="./images/d.png" target="_blank"><img src="./images/d.png" alt="" width="200px"></div>
         <p>
-          ● 使用HTML5的<strong>Canvas</strong>标签，实现的画板项目，对移动端兼容进行了实践。 </p>
+          ● 项目描述：一个使用HTML5的<strong>Canvas</strong>标签，实现的画板项目。 </p>
 
         <p>
-          ● 能在<strong>桌面端</strong>和<strong>移动端</strong>使用，可以图像形式保存画板内容。
+          ● 能在<strong>桌面端</strong>和<strong>移动端</strong>使用，可以图像形式保存画板内容，对移动端兼容进行了实践。
         </p>
         <p>
           ● 技术栈: JavaScript + HTML5 + Canvas + CSS3
@@ -509,55 +501,55 @@
     </ol>
   </section>
 
-  <section class="jobs">
-    <h2>实习经历</h2>
-    <ol>
-      <li>
-        <header>
-          <h3>湖北小黑课堂教育科技有限公司</h3>
-          <h4>运营</h4>
-          <span><time>2019年11月</time>~<time>2020年4月</time></span>
-        </header>
-        <ul>
-          <li>
-            l 负责本校线上运营社群，帮助同学解决计算机二级相关问题。
-          </li>
-          <li>
-            l 期间联系校园墙和各班级负责人建群协作，资源共享，帮助几百位校友自学二级课程。
+  <!--  <section class="jobs">-->
+  <!--    <h2>实习经历</h2>-->
+  <!--    <ol>-->
+  <!--      <li>-->
+  <!--        <header>-->
+  <!--          <h3>湖北小黑课堂教育科技有限公司</h3>-->
+  <!--          <h4>运营</h4>-->
+  <!--          <span><time>2019年11月</time>~<time>2020年4月</time></span>-->
+  <!--        </header>-->
+  <!--        <ul>-->
+  <!--          <li>-->
+  <!--            l 负责本校线上运营社群，帮助同学解决计算机二级相关问题。-->
+  <!--          </li>-->
+  <!--          <li>-->
+  <!--            l 期间联系校园墙和各班级负责人建群协作，资源共享，帮助几百位校友学习计算机二级课程。-->
 
-          </li>
-          <li>
-            l 积极完成实习任务，个人能力突出，实习结束时被评为“小黑课堂优秀实习生”。
-          </li>
-        </ul>
-      </li>
-    </ol>
-  </section>
+  <!--          </li>-->
+  <!--          <li>-->
+  <!--            l 积极完成实习任务，个人能力突出，实习结束时被评为“小黑课堂优秀实习生”。-->
+  <!--          </li>-->
+  <!--        </ul>-->
+  <!--      </li>-->
+  <!--    </ol>-->
+  <!--  </section>-->
 
-  <section class="jobs">
-    <h2>校园经历</h2>
-    <ol>
-      <li>
+  <!--  <section class="jobs">-->
+  <!--    <h2>校园经历</h2>-->
+  <!--    <ol>-->
+  <!--      <li>-->
 
-        <ul>
-          <li>
-            l 在校参加院校书画小组并担任小组组长，协助老师组织安排校园活动。
-          </li>
-          <li>
-            l 在校参加网易校园自媒体"百人计划"，发布文章浏览量破万，获得“网易优秀小编”荣誉。
-          <li>
-            l 在校获得校园书画大赛二等奖、计算机操作员、计算机二级证书、 校园营销大赛优秀奖等。
-          </li>
-          </li>
-        </ul>
-      </li>
-    </ol>
-  </section>
+  <!--        <ul>-->
+  <!--          <li>-->
+  <!--            l 在校参加院校书画小组并担任小组组长，协助老师组织安排校园活动。-->
+  <!--          </li>-->
+  <!--          <li>-->
+  <!--            l 在校参加网易校园自媒体"百人计划"，发布文章浏览量破万，获得“网易优秀小编”荣誉。-->
+  <!--          <li>-->
+  <!--            l 在校获得校园书画大赛二等奖、计算机操作员、计算机二级证书、 校园营销大赛优秀奖等。-->
+  <!--          </li>-->
+  <!--          </li>-->
+  <!--        </ul>-->
+  <!--      </li>-->
+  <!--    </ol>-->
+  <!--  </section>-->
   <section class="others">
     <h2>自我评价</h2>
     <ul>
-      <li>本人大二起学前端，积累一些开发经验，用过各类主流前端技术栈。</li>
-      <li>关注互联网前沿技术，爱倒腾，经常浏览MDN和优秀博客，学无止境。</li>
+      <li>大二起学前端，工作中不断积累开发经验，常年使用印象笔记和博客记录知识。</li>
+      <li>关注互联网前沿技术，经常浏览MDN和优秀博客，使用各类主流前端技术栈。</li>
     </ul>
   </section>
 
